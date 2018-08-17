@@ -5,10 +5,10 @@ zuul:
   routes:
     add-service-demo:
       path: /add-service/**
-      serviceId: add-service-demo
+      serviceId: add-service-sky
     random-service-demo:
       path: /random-service/**
-      serviceId: random-service-demo
+      serviceId: random-service-sky
 
 spring:
   rabbitmq:
